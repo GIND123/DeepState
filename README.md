@@ -2,20 +2,53 @@
 <img width="1632" height="640" alt="Gemini_Generated_Image_nr5hfknr5hfknr5h (1)" src="https://github.com/user-attachments/assets/247f8824-0017-4d37-872d-0e3bc21d5f83" />
 </div>
 
+# Overview
 
-# Run and deploy your AI Studio app
+DeepSlate Tutor is your academic weapon. It’s a multi-modal study companion built entirely using vibe coding.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/10AHvw_i4HTYbaNmrYqASIsLGCugJD9Fm
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+Why did we build this?<br> 
+We're grad students. We know the pain of drowning in complex papers, endless lecture slides, and scattered notes. We’ve always wanted a single app that could help us understand difficult concepts and revise them. We couldn't find one that worked the way our brains do, so we vibe coded it ourselves.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+# Features
+### Multi-Modal Input
+
+   - Documents: PDFs, PPTs.
+   - Visuals: Images of diagrams, messy whiteboard photos.
+   - Media: YouTube links (we parse the transcripts + visual context).
+   - Voice Input: We capture your voice and feed it straight to Gemini for instant answers.
+
+### Neuro-Inclusive Design
+
+Built for every type of brain. We know one size doesn't fit all.<br>
+Switch instantly to Dyslexia-friendly fonts or ADHD-focused layouts to keep you locked in without the sensory overload.
+
+### Reasoning Graphs
+Stop reading linear text. We generate dynamic Reasoning Graphs that visualize how Concept A connects to Concept B.
+
+### Active Recall
+
+   - Flashcards: Auto-generated spaced repetition cards.
+   - Quizzes: Check your knowledge with AI-generated questions that test your understanding.
+
+### Implementation Mode
+
+If the content involves code or algorithms, the app automatically detects it and generates a clean Python implementation for you to run and tweak.
+
+### Revision
+Save key concepts to your personal library and review them later.
+
+### Read Aloud
+Let the app explain the reasoning graphs and analysis breakdown to you.
+
+
+---
+
+### App Demo 
+View the app demo : [DeepSlate Tutor](https://youtu.be/qum8ayrS1o0?si=YL6gQPxfseCtLm6c)
+### Application link
+View the app in AI Studio: [DeepSlate Tutor App](https://ai.studio/apps/drive/1pcNvimrNXWecivfkcBIu2B3v7FkXC6sp?fullscreenApplet=true)
+
+----
+Built with ❤️ and ☕ for the Google DeepMind hackathon.
